@@ -1,3 +1,54 @@
 .customers {
   background-color: #d3e0f1;
+  padding-bottom: 80px;
+}
+.container {
+  margin: 0 auto;
+  padding: 0 16px;
+}
+.customers-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.second-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 40px;
+}
+.thumb {
+  width: 181px;
+  height: 181px;
+  border-radius: 181px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.customers-image {
+}
+.third-title {
+  color: #000;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.customers-text {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+.card-desc {
+  font-size: 14px;
+}
+.card-info {
+  font-size: 16px;
 }
