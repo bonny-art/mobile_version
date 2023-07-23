@@ -1,0 +1,16 @@
+.customers1 {
+  background-color: #e0efd8;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.swiper-pagination-bullet {
+  width: 50px;
+  height: 50px;
+}
+.swiper-pagination-bullet-active {
+  background-color: #c10505;
+}
