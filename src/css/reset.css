@@ -1,20 +1,3 @@
-:root {
-  /* Fonts */
-
-  --font-primary: 'Inter', sans-serif;
-  --font-secondary: 'Montserrat', sans-serif;
-
-  /* Font colors */
-  --font-light: #fff;
-  --font-dark: #000;
-
-  /* Main colors */
-  --light-color: #f6f7f7;
-  --dark-color: #06071b;
-  --gradient-color: linear-gradient(99deg, #00c4eb, #b544fe);
-}
-
-/* Reset styles */
 h1,
 h2,
 h3,
@@ -47,7 +30,4 @@ img {
 }
 
 .container {
-  width: 1280px;
-  margin: 0 auto;
-  padding: 0 16px;
 }

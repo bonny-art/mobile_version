@@ -20,13 +20,27 @@
 @import url('./modal.css');
 
 :root {
-  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  /* Fonts */
 
-  color: #242424;
-  background-color: rgba(255, 255, 255, 0.87);
+  --font-primary: 'Inter', sans-serif;
+  --font-secondary: 'Montserrat', sans-serif;
+
+  /* Font colors */
+  --font-light: #fff;
+  --font-dark: #000;
+
+  /* Main colors */
+  --light-color: #f6f7f7;
+  --dark-color: #06071b;
+  --gradient-color: linear-gradient(99deg, #00c4eb, #b544fe);
+
+  font-family: --font-primary;
+  /* font-size: 16px;
+  line-height: 24px;
+  font-weight: 400; */
+
+  color: var(--font-dark);
+  background-color: var(--font-light);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
