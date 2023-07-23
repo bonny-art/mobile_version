@@ -15,10 +15,16 @@
       rel="stylesheet"
     />
 
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+
     
-    <script type="module" crossorigin src="/mobile_version/assets/index-5edbf2f0.js"></script>
-    <link rel="stylesheet" href="/mobile_version/assets/index-4fdb9f33.css">
+    <script type="module" crossorigin src="/mobile_version/assets/index-d8a1c321.js"></script>
+    <link rel="stylesheet" href="/mobile_version/assets/index-356f84c3.css">
   </head>
+
   <body>
     <header class="header">
   <p>Header</p>
@@ -62,7 +68,25 @@
 </section>
 
       <section class="customers1">
-  <p>Customers1</p>
+  <!-- Slider main container -->
+  <div class="swiper">
+    <!-- Additional required wrapper -->
+    <div class="swiper-wrapper">
+      <!-- Slides -->
+      <div class="swiper-slide">Slide 1</div>
+      <div class="swiper-slide">Slide 2</div>
+      <div class="swiper-slide">Slide 3</div>
+    </div>
+    <!-- If we need pagination -->
+    <div class="swiper-pagination"></div>
+
+    <!-- If we need navigation buttons -->
+    <!-- <div class="swiper-button-prev"></div>
+    <div class="swiper-button-next"></div> -->
+
+    <!-- If we need scrollbar -->
+    <!-- <div class="swiper-scrollbar"></div> -->
+  </div>
 </section>
 
       <!-- Элементы для вызова модальных окон, могут быть любые -->
@@ -126,5 +150,6 @@
 
 
     
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
   </body>
 </html>
