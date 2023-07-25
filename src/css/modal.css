@@ -1,3 +1,9 @@
+/**
+  |============================
+  | My Modal
+  |============================
+*/
+
 /* Стили для подложки */
 
 .overlay {
@@ -20,7 +26,7 @@
 .modal {
   /* Скрываем окна  */
   opacity: 1;
-  /* visibility: hidden; */
+  visibility: hidden;
 
   /*  Устанавливаем ширину окна  */
   width: 500px;
@@ -41,7 +47,6 @@
   text-align: center;
   padding: 32px 40px;
   border-radius: 3px;
-  /* background-color: #e0d9d9; */
   background: #06071B;
   transition: 0.3s all;
 }
@@ -77,17 +82,9 @@
 
 }
 
-.modal-download-icons {
-  /* fill: blueviolet;
-  stroke: green;
-  border: 3px dashed green; */
-}
-
 .modal-container {
   display: flex;
   gap: 22px;
-
-
 }
 
 .modal-cont-list1,
@@ -182,3 +179,9 @@
   margin-bottom: 32px;
 
 }
+
+/**
+   |============================
+   |  Second Block
+   |============================
+ */
