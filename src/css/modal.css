@@ -186,11 +186,55 @@
    |============================
  */
 
+.second-full-container {
+  display: flex;
+}
 
-.second-download-list {}
+.second-download-container {
+  display: flex;
+  gap: 4px;
+  /* margin-bottom: 20px;
+  margin-top: 20px;
+  margin-left: 20px; */
 
-.second-download-item {}
 
-.second-download-box {}
+}
 
-.second-download-link {}
+.second-download-container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.second-download-list {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #B544FE;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 32px;
+
+}
+
+.second-download-item {
+  display: block;
+  text-align: left;
+}
+
+.second-download-box {
+
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  color: #FFF;
+  margin-bottom: 4px;
+}
+
+.second-download-link {
+
+  color: rgba(26, 185, 253, 1);
+}
+
+.second-download-icon {
+
+  fill: #FFF;
+}
