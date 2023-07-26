@@ -193,7 +193,6 @@
 .second-download-container {
   display: flex;
   gap: 4px;
-
 }
 
 .second-download-container:not(:last-child) {
