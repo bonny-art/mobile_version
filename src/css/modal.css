@@ -1,3 +1,9 @@
+/**
+  |============================
+  | My Modal
+  |============================
+*/
+
 /* Стили для подложки */
 
 .overlay {
@@ -20,7 +26,7 @@
 .modal {
   /* Скрываем окна  */
   opacity: 1;
-  /* visibility: hidden; */
+  visibility: hidden;
 
   /*  Устанавливаем ширину окна  */
   width: 500px;
@@ -41,7 +47,6 @@
   text-align: center;
   padding: 32px 40px;
   border-radius: 3px;
-  /* background-color: #e0d9d9; */
   background: #06071B;
   transition: 0.3s all;
 }
@@ -77,17 +82,9 @@
 
 }
 
-.modal-download-icons {
-  /* fill: blueviolet;
-  stroke: green;
-  border: 3px dashed green; */
-}
-
 .modal-container {
   display: flex;
   gap: 22px;
-
-
 }
 
 .modal-cont-list1,
@@ -180,5 +177,59 @@
   text-align: left;
   margin-top: 32px;
   margin-bottom: 32px;
+
+}
+
+/**
+   |============================
+   |  Second Block
+   |============================
+ */
+
+.second-full-container {
+  display: flex;
+}
+
+.second-download-container {
+  display: flex;
+  gap: 4px;
+}
+
+.second-download-container:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.second-download-list {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #B544FE;
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 32px;
+}
+
+.second-download-item {
+  display: block;
+  text-align: left;
+}
+
+.second-download-box {
+
+  font-family: Inter;
+  font-size: 12px;
+  line-height: 15px;
+  text-align: left;
+  color: #FFF;
+  margin-bottom: 4px;
+}
+
+.second-download-link {
+
+  color: rgba(26, 185, 253, 1);
+}
+
+.second-download-icon {
+
+  fill: #FFF;
 
 }
